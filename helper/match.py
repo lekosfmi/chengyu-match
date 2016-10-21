@@ -1,24 +1,21 @@
 # Matching methods
+#
+# vocab_to_match:
+# - Are the vocabularies that
+#   the user is going to see
+#
+# vocab_by_user:
+# - Are the vocabularies that the
+#   user is going to input
+#
 
-# from random import shuffle
-from vocab.chin import chin_chengyu
-from vocab.eng import eng_chengyu
+def match(vocab_to_match, vocab_by_user):
 
-
-def eng_match():
-    for i in range(len(chin_chengyu)):
-        print("### " + chin_chengyu[i] + " ###")
+    for i in range(len(vocab_to_match)):
+        print("### " + vocab_to_match[i] + " ###")
         user_input = input("> ")
 
-        print('⭕️') if user_input == eng_chengyu[i] else print('❌')
-
-
-def chin_match():
-    for i in range(len(eng_chengyu)):
-        print("### " + eng_chengyu[i] + " ###")
-        user_input = input("> ")
-
-        if user_input == chin_chengyu[i]:
-            print('👍')
-
-        print(">>> " + chin_chengyu[i] + " <<<")
+        if user_input == vocab_by_user[i]:
+            print('>> 👍  <<<')
+        else:
+            print(">>> " + vocab_to_match[i] + " <<<")

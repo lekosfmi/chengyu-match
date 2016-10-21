@@ -3,13 +3,12 @@
 from vocab.chin import chin_chengyu
 from vocab.eng import eng_chengyu
 
-from helper.match import chin_match
-from helper.match import eng_match
+from helper.match import match
 
 
-which_match = input("Chinese or English? ").lower()
+which_match = input("Chinese or English? ").replace(" ", "").lower()
 
 if which_match == "chinese":
-    chin_match()
+    match(eng_chengyu, chin_chengyu)
 elif which_match == "english":
-    eng_match()
+    match(chin_chengyu, eng_chengyu)
