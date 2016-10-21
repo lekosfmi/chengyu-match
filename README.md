@@ -9,6 +9,6 @@ A fun matching games with 成語 (Chinese idioms) and their English translation 
 
 ### Feel free to fork or send in pull request to contribute to this project!
 
-### Have a question? Don't hesitate to reach out to me: `lephanvanielle@gmail.com`
+#### Have a question? Don't hesitate to reach out to me: `lephanvanielle@gmail.com`
 
 ###### Vanielle Le
