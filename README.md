@@ -2,8 +2,9 @@
 A fun matching games with 成語 (Chinese idioms) and their English translation ~ ✌️
 
 ## Getting Started
-- Make sure you have Python––either 2 or 3––download on your machine
-- At the rooter folder run `$ python app.py`
+1. Clone the project or fork it
+2. Make sure you have Python––either 2 or 3––download on your machine
+3. At the rooter folder run `$ python app.py`
 
 ### Happy gaming! 🚀
 
