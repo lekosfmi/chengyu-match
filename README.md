@@ -3,7 +3,7 @@ A fun matching games with 成語 (Chinese idioms) and their English translation 
 
 ## Getting Started
 1. Clone the project or fork it
-2. Make sure you have Python 2 and/or 3 on your machine
+2. Make sure you have Python 3 on your machine
 3. At the rooter folder run `$ python app.py`
 
 ### Happy gaming! 🚀
