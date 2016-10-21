@@ -1,12 +1,8 @@
 # Matching methods
 
-from random import shuffle
+# from random import shuffle
 from vocab.chin import chin_chengyu
 from vocab.eng import eng_chengyu
-
-# Shuffle the vocabularies
-shuffle(chin_chengyu)
-shuffle(eng_chengyu)
 
 
 def eng_match():
@@ -22,4 +18,7 @@ def chin_match():
         print("### " + eng_chengyu[i] + " ###")
         user_input = input("> ")
 
-        print('⭕️') if user_input == chin_chengyu[i] else print('❌')
+        if user_input == chin_chengyu[i]:
+            print('👍')
+
+        print(">>> " + chin_chengyu[i] + " <<<")
