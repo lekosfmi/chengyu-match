@@ -21,6 +21,6 @@ def match(vocab_to_match, vocab_by_user):
             counter += 1
             print('>> 👍  <<<')
         else:
-            print(">>> " + vocab_to_match[i] + " <<<")
+            print(">>> " + vocab_by_user[i] + " <<<")
 
     print('Score: {0}/{1} 🚀'.format(counter, len(vocab_to_match)))
